@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: "./mvnw spring-boot:run"
+    openMode: split-right
